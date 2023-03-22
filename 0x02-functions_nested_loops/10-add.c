@@ -15,11 +15,11 @@ int add(int a, int b)
 	S = a + b;
 	if (S < 0)
 	{
-		_putchar(-S + 48);
+		_putchar(-S);
 	}
 	else
 	{
-		_putchar(S + 48);
+		_putchar(S);
 	}
 	_putchar('\n');
 	return (a + b);
