@@ -16,12 +16,10 @@ int add(int a, int b)
 	if (S < 0)
 	{
 		_putchar(-S + 48);
-		return (-S);
 	}
 	else
 	{
 		_putchar(S + 48);
-		return (S);
 	}
 	_putchar('\n');
 	return (a + b);
