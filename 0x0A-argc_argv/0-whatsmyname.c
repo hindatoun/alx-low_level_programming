@@ -9,8 +9,6 @@
  */
 int main(int argc, char *argv[])
 {
-	int argc = 0;
-
-	print("%s\n", argv[argc]);
+	print("%s\n", argv[0]);
 	return (0);
 }
